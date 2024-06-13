@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FED8B1;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    color: #A67B5B;
+    -webkit-text-stroke: 3px #6F4E37;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 6.25rem);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #6F4E37;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: #ECB176;
+    cursor: pointer;
+    box-shadow: 3px 3px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cell:hover{
+    background-color: #835e44;
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        color: #6F4E37;
+    }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #A67B5B;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 25px;
+    color: #472a14;
+}
+button:hover{
+    background-color: #c3936f;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #925324;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#scoreboard {
+    margin-top: 10px;
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #472a14;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
