@@ -15,7 +15,7 @@ A simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. This vers
 - CSS
 - JavaScript
 
-## How to Play
+## How to Use
 
 1. Clone or download the repository.
 2. Open the `index.html` file in a web browser.
@@ -24,5 +24,5 @@ A simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. This vers
 5. Click the "Play Again" button to restart the game.
 
 ## Live Websie
-The website is live at 
+The website is live at https://uvanp-08.github.io/PRODIGY_WD_03/
 
