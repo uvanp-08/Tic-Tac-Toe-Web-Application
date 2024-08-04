@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Web Application
 
-A simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. This version allows two players to play against each other, keeps track of scores, and highlights the winning line.
+A simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. This version allows two players to play against each other, keeps track of scores, and highlights the winning line. Done as part of web development internship at Prodigy Infotech.
 
 ## Features
 
