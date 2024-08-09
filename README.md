@@ -24,5 +24,5 @@ A simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. This vers
 5. Click the "Play Again" button to restart the game.
 
 ## Live Websie
-The website is live at https://uvanp-08.github.io/PRODIGY_WD_03/
+The website is live at https://uvanp-08.github.io/Tic-Tac-Toe-Web-Application/
 
